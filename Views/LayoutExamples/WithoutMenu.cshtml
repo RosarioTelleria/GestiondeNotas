@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "WithoutMenu";
+}
+@section VendorStyles {
+    <link rel="stylesheet" href="~/vendor/libs/apex-charts/apex-charts.css" />
+}
+@section VendorScripts {
+    <script src="~/vendor/libs/apex-charts/apexcharts.js"></script>
+}
+@section PageScripts {
+    <script src="~/js/dashboards-analytics.js"></script>
+}
+
+<div class="form-section-container">
+    <div class="card mb-2">
+        <div class="seccion-datos-generales">
+            <h5 class="card-header text-info">
+                <i class="fas fa-user-edit"></i> Listado de Estudiante
+            </h5>
+            <div class="card-body">
+                <table class="datatables-demo table display nowrap" style="width:90%">
+                    <thead>
+                        <tr>           
+                            <th>Codigo</th>
+                            <th>Nombre</th>
+                            <th>Año Lectivo</th>
+                            <th>Grado</th>
+                            <th>Estado</th>                         
+                        </tr>
+                    </thead>
+                    <tbody>
+       
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

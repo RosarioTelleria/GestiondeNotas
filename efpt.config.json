@@ -1,0 +1,61 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "ColegioContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "DB",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "AspnetCoreMvcFull",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Aulas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Calificaciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Estudiantes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Inscripciones]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Materias]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Profesores]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "nataly.Colegio.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
