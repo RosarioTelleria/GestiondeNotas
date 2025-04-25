@@ -23,6 +23,11 @@ namespace AspnetCoreMvcFull.Controllers
 
       return View(estudiantes);
     }
+
+    public IActionResult Asignaturas()
+    {
+      return View();
+    }
     public IActionResult Conducta()
     {
       return View();

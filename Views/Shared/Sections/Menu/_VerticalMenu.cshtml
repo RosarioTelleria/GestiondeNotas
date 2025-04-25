@@ -76,12 +76,17 @@
       </a>
 
       <ul class="menu-sub">
+        <li class='menu-item@(currentPage == "Notas/Asignaturas" ? " active" : "")'>
+            <a asp-controller="Notas" asp-action="Asignaturas" class="menu-link">
+                <div>Asignaturas</div>
+            </a>
+        </li>
 
-        <li class='menu-item@(currentPage == "Notas/Evaluaciones" ? " active" : "")'>
+        @* <li class='menu-item@(currentPage == "Notas/Evaluaciones" ? " active" : "")'>
             <a asp-controller="Notas" asp-action="Evaluaciones" class="menu-link">
             <div>Evaluaciones</div>
           </a>
-        </li>
+        </li> *@
         <li class='menu-item@(currentPage == "Notas/Conducta" ? " active" : "")'>
             <a asp-controller="Notas" asp-action="Conducta" class="menu-link">
             <div>Conducta</div>
